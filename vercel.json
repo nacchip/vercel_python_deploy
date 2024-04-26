@@ -1,9 +1,8 @@
 {
-  "version": 2,
   "builds": [
       {
-          "src": "*.py",
-          "use": "@ozanonurtek/flask-now"
+          "src": "app.py",
+          "use": "@vercel/python"
       }
   ],
   "routes": [
